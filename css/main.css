@@ -784,7 +784,7 @@ a {
   display: none;
 }
 .r-i-reviews-item {
-  margin: 0;
+  margin: 0 8px;
   width: 327px;
   height: 144px;
   top: 188px;
