@@ -18,7 +18,7 @@ Share your subconscious stories and experience them visually, with each dream be
 ## 🔹 Sections & Gallery
 
 ### Home / Hero
-<img src="img/home/Subtract.png" alt="Hero Section" width="500"/>
+<img src="img/footer/SYNTRIVA.png" alt="Hero Section" width="500"/>
 <p><i>Turn your dreams into cinematic reality.</i></p>
 
 ### About
