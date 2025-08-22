@@ -46,7 +46,7 @@ Share your subconscious stories and experience them visually, with each dream be
 ---
 
 ## 🔹 Design / Figma
-📐 [View the Figma Design]([https://www.figma.com/design/Ghfre6ZMKkjVFDPV9rc1Qf/Landing-prostaradventurequest.com-maket-3?node-id=4-1145&t=XA64m4O9hcyPLHfz-0](https://www.figma.com/design/FGkcmDJpxaPabhu5RmTc3o/STP-9100-synthriva.com--Copy-?node-id=8019-601&t=VusGyP3A5qcZKFgG-1))
+📐 [View the Figma Design](https://www.figma.com/design/FGkcmDJpxaPabhu5RmTc3o/STP-9100-synthriva.com--Copy-?node-id=8019-601&t=VusGyP3A5qcZKFgG-1)
 
 ---
 
