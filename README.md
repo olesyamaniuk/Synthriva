@@ -55,10 +55,7 @@ Share your subconscious stories and experience them visually, with each dream be
 | Action | Link |
 |--------|------|
 | 🌐 Live Demo | [synthriva.netlify.app](https://synthriva.netlify.app/) |
-| 📥 Download | [Download ZIP](https://github.com/yourusername/synthriva/archive/refs/heads/main.zip) |
-
-> **Note:** Replace `yourusername` in the download link with your GitHub username.  
-
+| 📥 Download | [Download ZIP](https://github.com/olesyamaniuk/synthriva/archive/refs/heads/main.zip) |
 
 ---
 
