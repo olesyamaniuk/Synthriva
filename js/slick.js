@@ -1,5 +1,5 @@
 $(function () {
-  $(".r-i-reviews-list").slick({
+  $(".reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -7,9 +7,8 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
-
     cssEase: "linear",
-    prevArrow: ".r-i-reviews-list-left",
-    nextArrow: ".r-i-reviews-list-right",
+    prevArrow: ".reviews-list-left",
+    nextArrow: ".reviews-list-right",
   });
 });

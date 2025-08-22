@@ -27,148 +27,40 @@
   </head>
 
   <body>
-    <div id="cookie-popup" class="r-i-cookie-popup">
-      <div class="r-i-cookie-popup-container">
-        <p class="r-i-cookie-popup-text-two">
-          We use cookies to improve your experience on our website. By browsing
-          this website, you agree to our use of cookies.
-        </p>
-        <div class="r-i-cookie-button-container">
-          <button id="accept-cookies" class="r-i-cookie-button">
-            Accept cookies
-          </button>
-          <button id="decline-cookies" class="r-i-cookie-button">
-            Decline Cookies
-          </button>
-        </div>
-      </div>
-    </div>
-    <header class="r-i-header">
-      <div class="r-i-header-background"></div>
-      <nav class="r-i-navigation">
-        <ul class="r-i-navigation-list">
-          <li class="r-i-navigation-item">
-            <a href="/" class="r-i-navigation-link">
-              <img
-                href="/"
-                class="r-i-title-img r-i-navigation-img"
-                alt="logo"
-                src="img/500x500.png"
-                style="width: 44px; height: 44px"
-              />
-            </a>
-          </li>
-          <li class="r-i-navigation-item">
-            <a href="/" class="r-i-navigation-link">Home</a>
-          </li>
-          <li class="r-i-navigation-item">
-            <a href="/#about" class="r-i-navigation-link">About Us</a>
-          </li>
-          <li class="r-i-navigation-item">
-            <a href="/#why" class="r-i-navigation-link">Realized Projects</a>
-          </li>
-          <li class="r-i-navigation-item">
-            <a href="/#reviews" class="r-i-navigation-link">Reviews</a>
-          </li>
-
-          <li class="r-i-navigation-item">
-            <a href="/#uniqueness" class="r-i-navigation-link">How It Works</a>
-          </li>
-
-          <li class="r-i-navigation-item">
-            <a href="/#how" class="r-i-navigation-link"
-              >Innovation & Technology</a
-            >
-          </li>
-
-          <li class="r-i-navigation-item">
-            <a href="/#faq" class="r-i-navigation-link">FAQ</a>
-          </li>
-        </ul>
-
-        <div class="r-i-header-button-wrapper">
-          <a href="/" class="r-i-header-icon-title">
-            <img
-              href="/"
-              class="r-i-title-img"
-              alt="logo"
-              src="img/500x500.png"
-              style="width: 44px; height: 44px"
-            />
-          </a>
-
-          <button type="button" class="r-i-header-icon-button" data-menu-button>
-            <img
-              class="r-i-header-icon r-i-header-icon-menu"
-              src="img/B_Menu.png"
-              style="width: 64px; height: 64px"
-              alt="menu "
-              st
-            />
-
-            <svg
-              class="r-i-header-icon r-i-header-icon-close"
-              width="64"
-              height="64"
-              viewBox="0 0 64 64"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M44 40L20 40"
-                stroke="#818181"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-              <path
-                d="M44 32L20 32"
-                stroke="#818181"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-              <path
-                d="M44 24L20 24"
-                stroke="#818181"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </button>
-        </div>
-      </nav>
-    </header>
+    <div id="header"></div>
 
     <main>
-      <section class="r-i-home" id="home">
-        <div class="r-i-home-container">
-          <div class="r-i-home-container-top">
-            <img
-              class="r-i-home-title-img"
-              src="/img/home/Subtract.png"
-              alt="title"
-            />
-            <p class="r-i-home-title">
-              Turn Your Dreams into Cinematic Reality
-            </p>
-            <p class="r-i-home-text">
+      <section class="hero" id="hero">
+        <div class="hero-container">
+          <div class="hero-top">
+            <h1>
+              <img
+                class="hero-title-img"
+                src="/img/home/Subtract.png"
+                alt="Synthriva"
+              />
+            </h1>
+            <h2 class="hero-title">Turn Your Dreams into Cinematic Reality</h2>
+            <h3 class="hero-text">
               With the power of AI and your imagination, Synthriva transforms
               subconscious stories into artistic animations.
-            </p>
-            <div class="r-i-home-div">
-              <a class="r-i-home-link" href="/#about">Learn More</a>
-              <a class="r-i-home-link" href="/#why">Our Projects</a>
+            </h3>
+            <div class="hero-links">
+              <a class="hero-link" href="/#about">Learn More</a>
+              <a class="hero-link" href="/#why">Our Projects</a>
             </div>
           </div>
         </div>
       </section>
-      <section class="r-i-about" id="about">
-        <div class="r-i-about-container">
-          <h2 class="r-i-about-title-one">ABOUT</h2>
-          <h2 class="r-i-about-title-one">SYNTRIVA</h2>
-          <h2 class="r-i-about-title-two">ABOUT SYNTRIVA</h2>
 
-          <h2 class="r-i-about-title">About Us</h2>
-          <p class="r-i-about-text">
+      <section class="about" id="about">
+        <div class="about-container">
+          <h2 class="gradient-title-one">ABOUT</h2>
+          <h2 class="gradient-title-one">SYNTRIVA</h2>
+          <h2 class="gradient-title-two">ABOUT SYNTRIVA</h2>
+
+          <h2 class="gradient-title">About Us</h2>
+          <p class="about-text">
             Synthriva is a dream-to-animation studio powered by artificial
             intelligence. We give life to the untold stories of your
             subconscious by turning dream descriptions into emotionally
@@ -178,319 +70,329 @@
           </p>
         </div>
       </section>
-      <article class="r-i-why" id="why">
-        <span style="display: none"
-          >Generated: 2025-05-29, Hash: r-i-qk39fd-r-i-7x</span
-        >
 
-        <div class="r-i-why-container">
-          <h2 class="r-i-about-title-one">DREAM</h2>
-          <h2 class="r-i-about-title-one">GALLERY</h2>
-          <h2 class="r-i-about-title-two">DREAM GALLERY</h2>
+      <section class="projects" id="projects">
+        <div class="projects-container">
+          <h2 class="gradient-title-one">DREAM</h2>
+          <h2 class="gradient-title-one">GALLERY</h2>
+          <h2 class="gradient-title-two">DREAM GALLERY</h2>
 
-          <h2 class="r-i-about-title">Realized Projects</h2>
-          <dl class="r-i-why-list">
-            <div class="r-i-why-item">
-              <p class="r-i-why-itemq">The Train with No End</p>
-              <figure class="r-i-why-img">
-                <img
-                  class="r-i-why-img"
-                  src="img/why/Project Image Container (1).png"
-                  alt=""
-                />
-              </figure>
+          <h2 class="gradient-title">Realized Projects</h2>
+          <div class="projects-list">
+            <div class="project-item">
+              <p class="project-name">The Train with No End</p>
+
+              <img
+                class="project-figure"
+                src="img/why/Project Image Container (1).png"
+                alt=""
+              />
+
               <div>
-                <dt class="r-i-why-text-bold">Summary:</dt>
-                <dd class="r-i-why-text">
+                <p class="project-bold">Summary:</p>
+                <p class="project-text">
                   A recurring dream where the user rides an infinite train,
                   passing through shifting seasons and time periods — from icy
                   prehistoric landscapes to glowing futuristic cities.
-                </dd>
+                </p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Style:</dt>
-                <dd class="r-i-why-text">Neo-noir + VHS glitch</dd>
+                <p class="project-bold">Style:</p>
+                <p class="project-text">Neo-noir + VHS glitch</p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Theme:</dt>
-                <dd class="r-i-why-text">Anxiety, movement, time loops</dd>
+                <p class="project-bold">Theme:</p>
+                <p class="project-text">Anxiety, movement, time loops</p>
               </div>
             </div>
-            <div class="r-i-why-item">
-              <p class="r-i-why-itemq">Ballroom Under the Ocean</p>
-              <figure class="r-i-why-img">
-                <img
-                  class="r-i-why-img"
-                  src="img/why/Project Image Container (2).png"
-                  alt=""
-                />
-              </figure>
+
+            <div class="project-item">
+              <p class="project-name">Ballroom Under the Ocean</p>
+
+              <img
+                class="project-figure"
+                src="img/why/Project Image Container (2).png"
+                alt=""
+              />
+
               <div>
-                <dt class="r-i-why-text-bold">Summary:</dt>
-                <dd class="r-i-why-text">
+                <p class="project-bold">Summary:</p>
+                <p class="project-text">
                   A formal dance unfolds inside a submerged palace. The dreamer
                   floats through the space, waltzing with people who slowly
                   dissolve into jellyfish.
-                </dd>
+                </p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Style:</dt>
-                <dd class="r-i-why-text">
+                <p class="project-bold">Style:</p>
+                <p class="project-text">
                   Watercolor animation + ambient lighting
-                </dd>
+                </p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Theme:</dt>
-                <dd class="r-i-why-text">
-                  Longing, fluid identity, memory loss
-                </dd>
+                <p class="project-bold">Theme:</p>
+                <p class="project-text">Longing, fluid identity, memory loss</p>
               </div>
             </div>
-            <div class="r-i-why-item">
-              <p class="r-i-why-itemq">Ashes of the Sky Fox</p>
-              <figure class="r-i-why-img">
-                <img
-                  class="r-i-why-img"
-                  src="img/why/Project Image Container (3).png"
-                  alt=""
-                />
-              </figure>
+
+            <div class="project-item">
+              <p class="project-name">Ashes of the Sky Fox</p>
+
+              <img
+                class="project-figure"
+                src="img/why/Project Image Container (3).png"
+                alt=""
+              />
+
               <div>
-                <dt class="r-i-why-text-bold">Summary:</dt>
-                <dd class="r-i-why-text" style="height: 81px">
+                <p class="project-bold">Summary:</p>
+                <p class="project-text" style="height: 81px">
                   The user dreams of chasing a flaming fox through a dreamscape
                   of crumbling cities and levitating forests.
-                </dd>
+                </p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Style:</dt>
-                <dd class="r-i-why-text">Surrealist ink + particle dynamics</dd>
+                <p class="project-bold">Style:</p>
+                <p class="project-text">Surrealist ink + particle dynamics</p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Theme:</dt>
-                <dd class="r-i-why-text">Rebirth, grief, transformation</dd>
+                <p class="project-bold">Theme:</p>
+                <p class="project-text">Rebirth, grief, transformation</p>
               </div>
             </div>
-            <div class="r-i-why-item">
-              <p class="r-i-why-itemq">Library of Forgotten Languages</p>
-              <figure class="r-i-why-img">
-                <img
-                  class="r-i-why-img"
-                  src="img/why/Project Image Container (4).png"
-                  alt=""
-                />
-              </figure>
+
+            <div class="project-item">
+              <p class="project-name">Library of Forgotten Languages</p>
+
+              <img
+                class="project-figure"
+                src="img/why/Project Image Container (4).png"
+                alt=""
+              />
+
               <div>
-                <dt class="r-i-why-text-bold">Summary:</dt>
-                <dd class="r-i-why-text">
+                <p class="project-bold">Summary:</p>
+                <p class="project-text">
                   Endless bookshelves in an alien language. The dreamer opens
                   books and is transported into each story, experiencing brief
                   lives.
-                </dd>
+                </p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Style:</dt>
-                <dd class="r-i-why-text">Dreamcore + shifting perspectives</dd>
+                <p class="project-bold">Style:</p>
+                <p class="project-text">Dreamcore + shifting perspectives</p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Theme:</dt>
-                <dd class="r-i-why-text">
+                <p class="project-bold">Theme:</p>
+                <p class="project-text">
                   Intellectual curiosity, existential wonder
-                </dd>
+                </p>
               </div>
             </div>
-            <div class="r-i-why-item">
-              <p class="r-i-why-itemq">My Childhood Tree Spoke to Me</p>
-              <figure class="r-i-why-img">
-                <img
-                  class="r-i-why-img"
-                  src="img/why/Project Image Container (5).png"
-                  alt=""
-                />
-              </figure>
+
+            <div class="project-item">
+              <p class="project-name">My Childhood Tree Spoke to Me</p>
+
+              <img
+                class="project-figure"
+                src="img/why/Project Image Container (5).png"
+                alt=""
+              />
+
               <div>
-                <dt class="r-i-why-text-bold">Summary:</dt>
-                <dd class="r-i-why-text">
+                <p class="project-bold">Summary:</p>
+                <p class="project-text">
                   The user dreams of their childhood backyard, where a giant
                   tree whispers in voices from their past.
-                </dd>
+                </p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Style:</dt>
-                <dd class="r-i-why-text">
-                  Soft pastels + emotional highlights
-                </dd>
+                <p class="project-bold">Style:</p>
+                <p class="project-text">Soft pastels + emotional highlights</p>
               </div>
               <div>
-                <dt class="r-i-why-text-bold">Theme:</dt>
-                <dd class="r-i-why-text">
+                <p class="project-bold">Theme:</p>
+                <p class="project-text">
                   Nostalgia, trauma processing, healing
-                </dd>
+                </p>
               </div>
-            </div>
-          </dl>
-        </div>
-      </article>
-      <section class="r-i-reviews" id="reviews">
-        <div class="r-i-reviews-container">
-          <h2 class="r-i-about-title-one">CUSTOMER</h2>
-          <h2 class="r-i-about-title-one">TESTIMONIALS</h2>
-          <h2 class="r-i-about-title-two">CUSTOMER TESTIMONIALS</h2>
-
-          <h2 class="r-i-about-title">Reviews</h2>
-          <div class="r-i-reviews-list">
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “It’s the first time I felt like my inner world had a director.
-                Synthriva didn’t just show my dream — it understood it.”
-              </p>
-              <p class="r-i-reviews-text">Riya V., screenwriter</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “This turned my anxiety dream into a beautiful short film. I
-                watched it three times and cried — in a good way.”
-              </p>
-              <p class="r-i-reviews-text">James L., startup founder</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “Our entire creative team is using Synthriva as a moodboard
-                generator now. Dreams are the new pitches.”
-              </p>
-              <p class="r-i-reviews-text">Léa M., design studio art director</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “I sent my partner an animation of a dream where we met on Mars.
-                It said more than any gift I’ve ever given.”
-              </p>
-              <p class="r-i-reviews-text">Carolina F., UX researcher</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “This is better than a diary. It’s dream therapy disguised as
-                cinema.”
-              </p>
-              <p class="r-i-reviews-text">Tomasz G., therapist</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “I didn’t expect much... and then I saw my dream. It felt like
-                someone had seen inside me and painted it with light.”
-              </p>
-              <p class="r-i-reviews-text">Sofia N., music producer</p>
-            </div>
-          </div>
-          <div class="r-i-reviews-lists">
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “It’s the first time I felt like my inner world had a director.
-                Synthriva didn’t just show my dream — it understood it.”
-              </p>
-              <p class="r-i-reviews-text">Riya V., screenwriter</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “This turned my anxiety dream into a beautiful short film. I
-                watched it three times and cried — in a good way.”
-              </p>
-              <p class="r-i-reviews-text">James L., startup founder</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “Our entire creative team is using Synthriva as a moodboard
-                generator now. Dreams are the new pitches.”
-              </p>
-              <p class="r-i-reviews-text">Léa M., design studio art director</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “I sent my partner an animation of a dream where we met on Mars.
-                It said more than any gift I’ve ever given.”
-              </p>
-              <p class="r-i-reviews-text">Carolina F., UX researcher</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “This is better than a diary. It’s dream therapy disguised as
-                cinema.”
-              </p>
-              <p class="r-i-reviews-text">Tomasz G., therapist</p>
-            </div>
-            <div class="r-i-reviews-item">
-              <p class="r-i-reviews-text-bold">
-                “I didn’t expect much... and then I saw my dream. It felt like
-                someone had seen inside me and painted it with light.”
-              </p>
-              <p class="r-i-reviews-text">Sofia N., music producer</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="r-i-uniqueness" id="uniqueness">
-        <div class="r-i-uniqueness-container">
-          <h2 class="r-i-about-title-one">EXTENDED</h2>
-          <h2 class="r-i-about-title-one">DETAILS</h2>
-          <h2 class="r-i-about-title-two">EXTENDED DETAILS</h2>
 
-          <h2 class="r-i-about-title">How It Works</h2>
-          <ul class="r-i-uniqueness-list">
-            <li class="r-i-uniqueness-item">
-              <p class="r-i-uniqueness-text-bold">1</p>
-              <div class="r-i-uniquenessq">
-                <p class="r-i-uniqueness-text">Submit Dream Description</p>
-                <p>
+      <section class="reviews" id="reviews">
+        <div class="reviews-container">
+          <h2 class="gradient-title-one">CUSTOMER</h2>
+          <h2 class="gradient-title-one">TESTIMONIALS</h2>
+          <h2 class="gradient-title-two">CUSTOMER TESTIMONIALS</h2>
+
+          <h2 class="gradient-title">Reviews</h2>
+
+          <ul class="reviews-list">
+            <li class="review-item">
+              <p class="review-text-bold">
+                “It’s the first time I felt like my inner world had a director.
+                Synthriva didn’t just show my dream — it understood it.”
+              </p>
+              <p class="review-text">Riya V., screenwriter</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “This turned my anxiety dream into a beautiful short film. I
+                watched it three times and cried — in a good way.”
+              </p>
+              <p class="review-text">James L., startup founder</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “Our entire creative team is using Synthriva as a moodboard
+                generator now. Dreams are the new pitches.”
+              </p>
+              <p class="review-text">Léa M., design studio art director</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “I sent my partner an animation of a dream where we met on Mars.
+                It said more than any gift I’ve ever given.”
+              </p>
+              <p class="review-text">Carolina F., UX researcher</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “This is better than a diary. It’s dream therapy disguised as
+                cinema.”
+              </p>
+              <p class="review-text">Tomasz G., therapist</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “I didn’t expect much... and then I saw my dream. It felt like
+                someone had seen inside me and painted it with light.”
+              </p>
+              <p class="review-text">Sofia N., music producer</p>
+            </li>
+          </ul>
+          <ul class="reviews-list-desk">
+            <li class="review-item">
+              <p class="review-text-bold">
+                “It’s the first time I felt like my inner world had a director.
+                Synthriva didn’t just show my dream — it understood it.”
+              </p>
+              <p class="review-text">Riya V., screenwriter</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “This turned my anxiety dream into a beautiful short film. I
+                watched it three times and cried — in a good way.”
+              </p>
+              <p class="review-text">James L., startup founder</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “Our entire creative team is using Synthriva as a moodboard
+                generator now. Dreams are the new pitches.”
+              </p>
+              <p class="review-text">Léa M., design studio art director</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “I sent my partner an animation of a dream where we met on Mars.
+                It said more than any gift I’ve ever given.”
+              </p>
+              <p class="review-text">Carolina F., UX researcher</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “This is better than a diary. It’s dream therapy disguised as
+                cinema.”
+              </p>
+              <p class="review-text">Tomasz G., therapist</p>
+            </li>
+
+            <li class="review-item">
+              <p class="review-text-bold">
+                “I didn’t expect much... and then I saw my dream. It felt like
+                someone had seen inside me and painted it with light.”
+              </p>
+              <p class="review-text">Sofia N., music producer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="how" id="how">
+        <div class="how-container">
+          <h2 class="gradient-title-one">EXTENDED</h2>
+          <h2 class="gradient-title-one">DETAILS</h2>
+          <h2 class="gradient-title-two">EXTENDED DETAILS</h2>
+
+          <h2 class="gradient-title">How It Works</h2>
+          <ul class="how-list">
+            <li class="how-item">
+              <p class="how-number">1</p>
+              <div class="how-content">
+                <p class="how-step">Submit Dream Description</p>
+                <p class="how-step-text">
                   Write a dream as you remember it — fragmented, poetic, or
                   detailed.
                 </p>
               </div>
             </li>
-            <li class="r-i-uniqueness-item">
-              <p class="r-i-uniqueness-text-bold">2</p>
-              <div class="r-i-uniquenessq">
-                <p class="r-i-uniqueness-text">Choose Mood & Style</p>
-                <p>
+            <li class="how-item">
+              <p class="how-number">2</p>
+              <div class="how-content">
+                <p class="how-step">Choose Mood & Style</p>
+                <p class="how-step-text">
                   Match your dream with an aesthetic: dreamy, glitchy, pastel,
                   dramatic, cosmic.
                 </p>
               </div>
             </li>
-            <li class="r-i-uniqueness-item">
-              <p class="r-i-uniqueness-text-bold">3</p>
-              <div class="r-i-uniquenessq">
-                <p class="r-i-uniqueness-text">AI Deconstruction</p>
-                <p>
+            <li class="how-item">
+              <p class="how-number">3</p>
+              <div class="how-content">
+                <p class="how-step">AI Deconstruction</p>
+                <p class="how-step-text">
                   The system identifies scenes, characters, metaphors, settings,
                   and mood changes.
                 </p>
               </div>
             </li>
-            <li class="r-i-uniqueness-item">
-              <p class="r-i-uniqueness-text-bold">4</p>
-              <div class="r-i-uniquenessq">
-                <p class="r-i-uniqueness-text">Story Reconstruction</p>
-                <p>
+            <li class="how-item">
+              <p class="how-number">4</p>
+              <div class="how-content">
+                <p class="how-step">Story Reconstruction</p>
+                <p class="how-step-text">
                   A dramaturgy algorithm reconstructs a visual narrative in 6–12
                   scenes.
                 </p>
               </div>
             </li>
-            <li class="r-i-uniqueness-item">
-              <p class="r-i-uniqueness-text-bold">5</p>
-              <div class="r-i-uniquenessq">
-                <p class="r-i-uniqueness-text">Render & Review</p>
-                <p>
+            <li class="how-item">
+              <p class="how-number">5</p>
+              <div class="how-content">
+                <p class="how-step">Render & Review</p>
+                <p class="how-step-text">
                   The animation is generated in under 5 minutes. Optionally
                   adjust style or sequence.
                 </p>
               </div>
             </li>
-            <li class="r-i-uniqueness-item">
-              <p class="r-i-uniqueness-text-bold">6</p>
-              <div class="r-i-uniquenessq">
-                <p class="r-i-uniqueness-text">Download or Share</p>
-                <p>
+            <li class="how-item">
+              <p class="how-number">6</p>
+              <div class="how-content">
+                <p class="how-step">Download or Share</p>
+                <p class="how-step-text">
                   You receive an MP4 or private link to your cinematic dream.
                 </p>
               </div>
@@ -499,147 +401,156 @@
         </div>
       </section>
 
-      <section class="r-i-how" id="how">
-        <div class="r-i-how-container">
-          <h2 class="r-i-about-title-one">WHY SYNTRIVA</h2>
-          <h2 class="r-i-about-title-one">IS UNIQUE</h2>
-          <h2 class="r-i-about-title-two">WHY SYNTRIVA IS UNIQUE</h2>
+      <section class="why" id="why">
+        <div class="why-container">
+          <h2 class="gradient-title-one">WHY SYNTRIVA</h2>
+          <h2 class="gradient-title-one">IS UNIQUE</h2>
+          <h2 class="gradient-title-two">WHY SYNTRIVA IS UNIQUE</h2>
 
-          <h2 class="r-i-about-title">Innovation & Technology</h2>
+          <h2 class="gradient-title">Innovation & Technology</h2>
 
-          <ul class="r-i-how-list">
-            <li class="r-i-how-item">
-              <p class="r-i-how-text-bold">Narrative Intelligence Engine</p>
+          <ul class="why-list">
+            <li class="why-item">
+              <p class="why-item-title">Narrative Intelligence Engine</p>
               <p>NLP model detects story arcs in chaotic dream text.</p>
             </li>
-            <li class="r-i-how-item">
-              <p class="r-i-how-text-bold">Visual Surrealism Generator</p>
+            <li class="why-item">
+              <p class="why-item-title">Visual Surrealism Generator</p>
               <p>
                 AI applies non-standard aesthetics inspired by avant-garde
                 cinema.
               </p>
             </li>
-            <li class="r-i-how-item">
-              <p class="r-i-how-text-bold">Emotional Mapping</p>
+            <li class="why-item">
+              <p class="why-item-title">Emotional Mapping</p>
               <p>
                 Dreams are matched with sonic and color tones based on their
                 emotional core.
               </p>
             </li>
-            <li class="r-i-how-item">
-              <p class="r-i-how-text-bold">Ethical AI Use</p>
+            <li class="why-item">
+              <p class="why-item-title">Ethical AI Use</p>
               <p>
                 Every output is filtered, safe, and aligned with creative
                 expression.
               </p>
             </li>
           </ul>
-          <p class="r-i-how-text">Note:</p>
-          <p class="r-i-how-text-two">
+
+          <p class="why-note">Note:</p>
+          <p class="why-note-text">
             “Synthriva does not use copyrighted content. Every dream is
             processed through custom-trained models with original datasets.”
           </p>
         </div>
       </section>
-      <section class="r-i-faq" id="faq">
-        <div class="r-i-faq-container">
-          <h2 class="r-i-about-title-one">YOU ASK,</h2>
-          <h2 class="r-i-about-title-one">WE DREAM</h2>
-          <h2 class="r-i-about-title-two">YOU ASK, WE DREAM</h2>
 
-          <h2 class="r-i-about-title">FAQ</h2>
-          <ul class="r-i-faq-list">
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+      <section class="faq-section" id="faq">
+        <div class="faq-container">
+          <h2 class="gradient-title-one">YOU ASK,</h2>
+          <h2 class="gradient-title-one">WE DREAM</h2>
+          <h2 class="gradient-title-two">YOU ASK, WE DREAM</h2>
+
+          <h2 class="gradient-title">FAQ</h2>
+
+          <ul class="faq-list">
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>How long does it take to generate a dream film?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 ~1–5 minutes depending on length and complexity.
               </div>
             </li>
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>Can I edit the animation after it’s generated?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 Basic edits like reordering scenes or switching styles are
                 available.
               </div>
             </li>
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>Are the videos private?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 Yes, your dreams are confidential by default unless you choose
                 to share them.
               </div>
             </li>
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>Can I use my animation commercially?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 Yes, under personal or non-commercial license. Commercial rights
                 are negotiable.
               </div>
             </li>
 
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>What kind of dreams work best?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 Any – abstract, nightmarish, romantic, absurd – the more
                 expressive, the better.
               </div>
             </li>
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>What visual styles are available?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 Surrealist, Neon Vaporwave, Dreamcore, Ink & Watercolor, Soft
                 Pastel.
               </div>
             </li>
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>Can I narrate my dream?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 Yes, AI voice-over or user recording options are available.
               </div>
             </li>
-            <li class="r-i-faq-item">
-              <div class="r-i-faq-question" onclick="toggleAnswer(this)">
+
+            <li class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
                 <span>Is this therapy?</span>
-                <button class="r-i-toggle-button">
+                <button class="toggle-button">
                   <img src="/img/Plus.png" alt="Toggle" />
                 </button>
               </div>
-              <div class="r-i-faq-answer">
+              <div class="faq-answer">
                 No. Synthriva is a creative and artistic experience, not a
                 medical service.
               </div>
@@ -648,90 +559,19 @@
         </div>
       </section>
     </main>
-    <footer class="r-i-footer" style="margin: auto">
-      <div class="r-i-footer-container">
-        <div class="r-i-footerq">
-          <div class="r-i-footer-wrapperq">
-            <a href="https://www.instagram.com" target="_blank"
-              ><img
-                class="r-i-footer-img"
-                src="/img/footer/instagram-fill.png"
-                alt="instagram"
-              /> </a
-            ><a href="https://www.youtube.com" target="_blank"
-              ><img
-                class="r-i-footer-img"
-                src="/img/footer/youtube.png"
-                alt="youtube" /></a
-            ><a href="https://www.tiktok.com" target="_blank"
-              ><img
-                class="r-i-footer-img"
-                src="/img/footer/tiktok.png"
-                alt="tiktok" /></a
-            ><a href="https://x.com/" target="_blank"
-              ><img
-                class="r-i-footer-img"
-                src="/img/footer/fa6-brands_sqtwitter.png"
-                alt="twitter" /></a
-            ><a href="https://www.linkedin.com" target="_blank"
-              ><img
-                class="r-i-footer-img"
-                src="/img/footer/linkedin.png"
-                alt="linkedin"
-            /></a>
-          </div>
-          <div class="r-i-footer-wrapper">
-            <a class="r-i-footer-text" href="/policy.html">Privacy Policy</a>
-            <a class="r-i-footer-text" href="/terms.html"
-              >Terms and Conditions
-            </a>
-            <a class="r-i-footer-text" href="/cookies.html">Cookies Policy</a>
-          </div>
-          <div>
-            <div class="r-i-footer-wrapperqq">
-              <a href="https://www.instagram.com" target="_blank"
-                ><img
-                  class="r-i-footer-img"
-                  src="/img/footer/instagram-fill.png"
-                  alt="instagram"
-                /> </a
-              ><a href="https://www.youtube.com" target="_blank"
-                ><img
-                  class="r-i-footer-img"
-                  src="/img/footer/youtube.png"
-                  alt="youtube" /></a
-              ><a href="https://www.tiktok.com" target="_blank"
-                ><img
-                  class="r-i-footer-img"
-                  src="/img/footer/tiktok.png"
-                  alt="tiktok" /></a
-              ><a href="https://x.com/" target="_blank"
-                ><img
-                  class="r-i-footer-img"
-                  src="/img/footer/fa6-brands_sqtwitter.png"
-                  alt="twitter" /></a
-              ><a href="https://www.linkedin.com" target="_blank"
-                ><img
-                  class="r-i-footer-img"
-                  src="/img/footer/linkedin.png"
-                  alt="linkedin"
-              /></a>
-            </div>
-            <p class="r-i-footer-copyright">
-              © All rights reserved synthriva.com, 2025
-            </p>
-          </div>
-        </div>
-        <img
-          class="r-i-footer-title"
-          src="/img/footer/SYNTRIVA.png"
-          alt="title"
-        />
-      </div>
-    </footer>
-    <script src="js/mobile-menu.js"></script>
-    <script src="js/jquery-loc-r-i-0.js"></script>
+    <div id="footer"></div>
+    <script src="js/toggle.js"></script>
+    <script src="js/header-footer.js"></script>
+    <script src="js/cookie.js"></script>
+
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
     <script src="js/slick.js"></script>
   </body>
 </html>
