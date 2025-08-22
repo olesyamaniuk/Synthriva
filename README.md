@@ -46,7 +46,7 @@ Share your subconscious stories and experience them visually, with each dream be
 ---
 
 ## 🔹 Design / Figma
-📐 [View the Figma Design](https://www.figma.com/design/FGkcmDJpxaPabhu5RmTc3o/STP-9100-synthriva.com--Copy-?node-id=8019-601&t=VusGyP3A5qcZKFgG-1)
+📐 [View the Figma Design](https://www.figma.com/design/FGkcmDJpxaPabhu5RmTc3o/STP-9100-synthriva.com--Copy-?node-id=3-35&t=VusGyP3A5qcZKFgG-0)
 
 ---
 
